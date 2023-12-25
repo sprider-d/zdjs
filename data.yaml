@@ -1,0 +1,14 @@
+train: D:/study/datasets/datayolov8/train/images
+val: D:/study/datasets/datayolov8/valid/images
+test: D:/study/datasets/datayolov8/test/images
+nc: 7
+names: ['Angular Leafspot', 'Anthracnose Fruit Rot', 'Blossom Blight', 'Gray Mold', 'Leaf Spot', 'Powdery Mildew Fruit', 'Powdery Mildew Leaf']
+
+roboflow:
+  workspace: mrr
+  project: -mstwo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mrr/-mstwo/dataset/1
+
+
